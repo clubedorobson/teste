@@ -40,6 +40,7 @@ export default {
 
 .fixed-top{
     background-color: #bf00cc;
+    color: white
 }
 
 </style>

@@ -1,6 +1,10 @@
 <template>
   <div class="hello">
     <Header></Header>
+    <div class="row">
+      <New1></New1>
+      <New2></New2>
+    </div>
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
@@ -87,7 +91,8 @@
 <script>
 
 import Header from "./Header.vue"
-
+import New1 from "./New1"
+import New2 from "./New2"
 
 export default {
   components:{
