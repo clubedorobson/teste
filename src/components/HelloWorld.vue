@@ -90,12 +90,12 @@
 
 <script>
 
-import Header from "./Header.vue"
-import New1 from "./New1.vue"
-import New2 from "./New2.vue"
+import Header from './Header.vue'
+import New1 from './New1.vue'
+import New2 from './New2.vue'
 
 export default {
-  components:{
+  components: {
     Header, New1, New2
   },
   name: 'HelloWorld',

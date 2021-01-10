@@ -13,7 +13,6 @@
 
 <script>
 
-
 export default {
   name: 'New1',
   data () {
