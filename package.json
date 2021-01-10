@@ -17,7 +17,7 @@
   "dependencies": {
     "@popperjs/core": "^2.6.0",
     "bootstrap": "^5.0.0-beta1",
-    "fifa-api-proclubs": "^1.0.3",
+    "fifa-api-proclubs": "git+https://github.com/clubedorobson/fifa-api-proclubs.git#master",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
     "portal-vue": "^2.1.7",
