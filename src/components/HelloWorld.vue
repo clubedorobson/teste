@@ -94,15 +94,12 @@ import Header from './Header.vue'
 import New1 from './New1.vue'
 import New2 from './New2.vue'
 
-
-
 export default {
   components: {
     Header, New1, New2
   },
   name: 'HelloWorld',
   data () {
-    console.log(resp)
     return {
       msg: 'Welcome to Your incredible and amazing Vue.js App'
     }
