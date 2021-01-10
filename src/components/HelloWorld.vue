@@ -95,7 +95,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your incredible Vue.js App'
+      msg: 'Welcome to Your incredible and amazing Vue.js App'
     }
   }
 }
