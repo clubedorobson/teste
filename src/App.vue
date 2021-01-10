@@ -20,4 +20,8 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+@import './assets/styles/variables';
+@import './assets/styles/bootstrap';
+
 </style>
