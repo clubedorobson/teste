@@ -94,10 +94,7 @@ import Header from './Header.vue'
 import New1 from './New1.vue'
 import New2 from './New2.vue'
 
-const proClubsApi = require('fifa-api-proclubs')
-proClubsApi.club.platformType('PS4')
 
-const resp = await club.getClubInfo('6703918');
 
 export default {
   components: {
