@@ -38,7 +38,7 @@ export default {
 
 <style>
 
-.fixed-top{
+.navbar-brand .navbar-link{
     background-color: #bf00cc;
     color: white
 }
