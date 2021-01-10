@@ -32,6 +32,8 @@ export default {
   async data () {
     const proClubsApi = require('fifa-api-proclubs')
     proClubsApi.club.platformType('PS4')
+    const resp_1 = await proClubsApi.leaderboard.seasonRankLeaderboard()
+    console.log(resp_1)
     const resp = await proClubsApi.club.getClubInfo('6703918')
     console.log(resp)
   }
