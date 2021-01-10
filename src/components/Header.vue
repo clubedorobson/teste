@@ -27,10 +27,15 @@
 
 <script>
 
+const proClubsApi = require('fifa-api-proclubs')
+proClubsApi.club.platformType('PS4')
+
+
+
 export default {
   name: 'Header',
-  data () {
-
+  async data () {
+    const resp = await club.getClubInfo('6703918');
   }
 }
 </script>
