@@ -28,12 +28,13 @@
 <script>
 
 const proClubsApi = require('fifa-api-proclubs')
+
 proClubsApi.club.platformType('PS4')
 
 export default {
   name: 'Header',
   async data () {
-    const resp = await proClubsApi.club.getClubInfo('6703918')
+    const resp = await club.getClubInfo('6703918')
     console.log(resp)
   }
 }
@@ -41,9 +42,13 @@ export default {
 
 <style>
 
-.navbar-brand .navbar-link .navbar-light{
-    background-color: #bf00cc;
+.navbar-brand .navbar-link {
+    
     color: white
+}
+
+.navbar-light {
+  background-color: #bf00cc
 }
 
 </style>
