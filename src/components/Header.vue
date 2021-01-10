@@ -37,7 +37,7 @@ export default {
 
 <style>
 
-.navbar-brand .navbar-link{
+.navbar-brand .navbar-link .navbar-light{
     background-color: #bf00cc;
     color: white
 }
