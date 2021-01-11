@@ -42,7 +42,7 @@ export default {
 
     await $.ajax({
       type: "GET",
-      url: url,
+      url: 'https://www.ea.com/pt-br/games/fifa/fifa-21/pro-clubs/ps4-xb1-pc/overview?clubId=6703918&platform=ps4',
       headers: {
         "Access-Control-Allow-Origin": "*",
       },
