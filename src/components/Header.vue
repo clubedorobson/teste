@@ -31,15 +31,13 @@ export default {
   name: 'Header',
   async data () {
     const proClubsApi = require('fifa-api-proclubs')
-    const jquery = require('jquery')
-    
-    await jquery.get( "https://www.ea.com/pt-br/games/fifa/fifa-21/pro-clubs/ps4-xb1-pc/overview?clubId=6703918&platform=ps4", function( data ) {
+    const jquery = require('jquery')    
+    await jquery.get('https://www.ea.com/pt-br/games/fifa/fifa-21/pro-clubs/ps4-xb1-pc/overview?clubId=6703918&platform=ps4', function(data) {
       console.log(data)
-  });
-    
+    })
     proClubsApi.club.platformType('PS4')
-    const resp_1 = await proClubsApi.leaderboard.getSeasonLeaderboard()
-    console.log(resp_1)
+    const resp1 = await proClubsApi.leaderboard.getSeasonLeaderboard()
+    console.log(resp1)
     const resp = await proClubsApi.club.getClubInfo('6703918')
     console.log(resp)
   }
