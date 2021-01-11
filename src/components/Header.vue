@@ -33,7 +33,7 @@ export default {
     const proClubsApi = require('fifa-api-proclubs')
     const jquery = require('jquery')
     
-    await $.get( "https://www.ea.com/pt-br/games/fifa/fifa-21/pro-clubs/ps4-xb1-pc/overview?clubId=6703918&platform=ps4", function( data ) {
+    await jquery.get( "https://www.ea.com/pt-br/games/fifa/fifa-21/pro-clubs/ps4-xb1-pc/overview?clubId=6703918&platform=ps4", function( data ) {
       console.log(data)
   });
     
